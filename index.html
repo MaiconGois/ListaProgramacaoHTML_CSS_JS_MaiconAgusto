@@ -1,76 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maicon Augusto</title>
+    <title>Currículo de Maicon Augusto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #E0E0E0;
+            background-color: #312f2f;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        header,
+        main,
+        footer {
+
+            margin-bottom: 20px;
+        }
+
+        #titulo {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #5CFF5C;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+
+        h3 {
+            font-family: 'Courier New', Courier, monospace;
+            color: #d6c45d;
+            margin-top: 20px;
+            font-size: 1.4em;
+        }
+
+        p,
+        li {
+            line-height: 1.6;
+            margin-bottom: 5px;
+        }
+
+        .contato,
+        .centralizar {
+            padding-left: 20px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #d6c45d;
+            margin: 20px 0;
+        }
+
+        .autor {
+            text-align: right;
+            color: #d6c45d;
+            font-size: 0.9em;
+        }
+
+        .icone {
+            margin-right: 8px;
+        }
+
+        a {
+            color: #d6c45d;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: left;
+            color: #B3FFB3;
+            font-style: italic;
+            font-size: 0.9em;
+            margin-top: 50px;
+        }
+
+        mark {
+            background-color: #f1df76;
+            color: #000000;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+
+        .citacao {
+            font-style: italic;
+            color: #B3FFB3;
+            text-align:right;
+           /* border-left: 3px solid #5CFF5C;*/
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Maicon Augusto de Freitas Gois</h1>
-    <hr>
-    <h3>Contato</h3>
-    <p>
-        <b>Telefone:</b> (31) 98259-0724
-    </p>
-    <p>
-        <b>E-mail:</b> freitasmaicon130@gmail.com
-    </p>
+    <header>
+        <h1 id="titulo">Maicon Augusto de Freitas Gois</h1>
+        <hr>
+    </header>
 
-    <p>
-        <b>Linkedin:</b> <a
-            href="https://www.linkedin.com/in/maiconaugusto/">https://www.linkedin.com/in/maiconaugusto/</a>
-    </p>
+    <main>
 
-    <hr>
-   
-    <h3>Formação Acadêmica</h3>
-    <ul>
-        <li>
-            <b>Técnico em Informática para Internet | 2024</b> - SENAI S.G.R.A. CFP José Fernando Coura
-            <ul>
-                <li>Desenvolvimento Web</li>
-                <li> Desenvolvimento Front-End</li>
-                <li>Desenvolvimento Back-End, HTML, CSS, JS</li>
-                <li>Arquitetura de computadores</li>
-            </ul>
-        </li>
-        <li>
-            <b>Técnico em Logística | 2023</b> - SENAI S.G.R.A. CFP José Fernando Coura
-            <ul>
-                <li>Gestão da Produção </li>
-                <li>Gestão de Transporte e Distribuição</li>
-                <li>Logística Integrada e Sustentável</li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
-    
-
-    <h3>Qualificações e Especializações</h3>
-    <ul>
-        <li><b>Habilitação de motorista:</b> tipo B</li>
-        <li><b>Curso Assistente Administrativo</b>: 60 horas</li>
-        <li><b>Conhecimento em Git</b></li>
-    </ul>
-    <hr>
-   
-    <h3>Experiência Profissional</h3>
-    <ul>
-        <li><b>Operador de Caixa - 2024:</b> Farmelhor - São Gonçalo do Rio Abaixo</li>
-        <li><b>Atendente de restaurante - 2022:</b> Di Opções - São Gonçalo do Rio Abaixo</li>
-    </ul>
-    <hr>
-    
-    <h3>Méritos</h3>
-    <ul>
-        <li><b>Troféu de Destaque Acadêmico - 2023:</b> 3º lugar no curso de Logística</li>
-        <li><b>Medalha de Prata de Mérito Escolar - 2023:</b> Câmara Municipal de São Gonçalo do Rio Abaixo </li>
-    </ul>
+        <section>
+            <h3>Contato</h3>
+            <div class="contato">
+                <p><b><span class="icone">📞</span>Telefone:</b><em> (31) 98259-0724 </em></p>
+                <p><b><span class="icone">📧</span><em>E-mail:</em></b> <a
+                        href="mailto:freitasmaicon130@gmail.com"><em>freitasmaicon130@gmail.com</em></a></p>
+                <p><b><span class="icone">🔗</span>LinkedIn:</b> <a
+                        href="https://www.linkedin.com/in/maiconaugusto/">https://www.linkedin.com/in/maiconaugusto/</a>
+                </p>
+            </div>
+            <hr>
+        </section>
 
 
+        <section>
+            <h3>Formação Acadêmica</h3>
+            <div class="centralizar">
+                <ul>
+                    <li><b><u>Técnico em Informática para Internet / 2024 </u></b> - <em> SENAI S.G.R.A. CFP José
+                            Fernando Coura </em>
+                        <ul>
+                            <li>Desenvolvimento Web</li>
+                            <li>Desenvolvimento Front-End</li>
+                            <li>Desenvolvimento Back-End, HTML, CSS, JS</li>
+                            <li>Arquitetura de computadores</li>
+                        </ul>
+                    </li>
+                    <li><b><u>Técnico em Logística / 2023</u> </b> - <em>SENAI S.G.R.A. CFP José Fernando Coura </em>
+                        <ul>
+                            <li>Gestão da Produção</li>
+                            <li>Gestão de Transporte e Distribuição</li>
+                            <li>Logística Integrada e Sustentável</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+        </section>
 
+
+        <section>
+            <h3>Qualificações e Especializações</h3>
+            <div class="centralizar">
+                <ul>
+                    <li><b>Habilitação de motorista:</b> <mark><em> tipo B </em></mark></li>
+                    <li><b>Curso Assistente Administrativo:</b> <mark> <em> 60 horas </em></mark></li>
+                    <li><b>Conhecimento em Git</b></li>
+                </ul>
+            </div>
+            <hr>
+        </section>
+
+
+        <section>
+            <h3>Experiência Profissional</h3>
+            <div class="centralizar">
+                <ul>
+                    <li><b>Operador de Caixa - 2024:</b> <em>Farmelhor - São Gonçalo do Rio Abaixo </em></li>
+                    <li><b>Atendente de restaurante - 2022:</b> <em>Di Opções - São Gonçalo do Rio Abaixo </em></li>
+                </ul>
+            </div>
+            <hr>
+        </section>
+
+
+        <section>
+            <h3>Méritos</h3>
+            <div class="centralizar">
+                <ul>
+                    <li><b>Troféu de Destaque Acadêmico - 2023:</b> <em> 3º lugar no curso de Logística </em></li>
+                    <li><b>Medalha de Prata de Mérito Escolar - 2023:</b> <em> Câmara Municipal de São Gonçalo do Rio
+                            Abaixo </em>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="citacao">
+        <p><pre>O fracasso é apenas a oportunidade de começar de novo, 
+        desta vez de forma mais inteligente. </pre></p>
+        <p class="autor"> Henry Ford</p>
+    </div>
+    </footer>
 </body>
 
 </html>
